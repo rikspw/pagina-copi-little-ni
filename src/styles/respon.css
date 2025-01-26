@@ -1,0 +1,56 @@
+@media (max-width: 1024px) {
+    main {
+        padding: 15px;
+    }
+
+    .imgd .logo {
+        width: 180px;
+    }
+
+    .informacoes .descr {
+        font-size: 0.9rem;
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 768px) {
+    .informacoes .descr {
+        font-size: 0.85rem;
+    }
+
+    .imgd .logo {
+        width: 150px;
+    }
+
+    .botoes {
+        gap: 8px;
+    }
+
+    .botao {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        padding: 10px;
+    }
+
+    .informacoes .descr {
+        font-size: 0.8rem;
+    }
+
+    .imgd .logo {
+        width: 120px;
+    }
+
+    .botoes {
+        gap: 6px;
+    }
+
+    .botao {
+        width: 10px;
+        height: 10px;
+    }
+}
