@@ -11,12 +11,14 @@
         font-size: 0.9rem;
         max-width: 600px;
     }
+    .img{object-fit: cover;}
 }
 
 @media (max-width: 768px) {
     .informacoes .descr {
         font-size: 0.85rem;
     }
+    .img{object-fit: cover;}
 
     .imgd .logo {
         width: 150px;
@@ -36,7 +38,14 @@
     main {
         padding: 10px;
     }
-
+ .img{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 300px;
+    width: 100vw;
+    object-fit: cover
+    ;}
     .informacoes .descr {
         font-size: 0.8rem;
     }
